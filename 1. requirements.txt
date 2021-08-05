@@ -1,0 +1,8 @@
+Ensure the following libraries are installed.
+
+pandas
+yfinance
+psycopg2
+sqlalchemy
+schedule
+time
