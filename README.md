@@ -7,14 +7,14 @@ To run the scripts, update the scripts as follows:<br>
     In **def connect_postgres()**<br>
       dbname=DATABASENAME user=USERNAME password=PASSWORD<br>
     **Replace**<br>
-    DATABASENAME with your databasename<br>
-    USERNAME with the your postgres username <br>
-    PASSWORD with your postgres database password<br>
+    **DATABASENAME** with your databasename<br>
+    **USERNAME** with the your postgres username <br>
+    **PASSWORD** with your postgres database password<br>
     
     In **def connect_sqlalchemy()**<br>
       postgresql+psycopg2://USERNAME:PASSWORD@HOST:PORT/DATABASENAME<br>
     **Replace**<br>
-    **USERNAME* with your postgres username<br>
+    **USERNAME** with your postgres username<br>
     **PASSWORD** with your postgres database password<br>
     **HOST** with the database host<br>
     **PORT** with the database port<br>
