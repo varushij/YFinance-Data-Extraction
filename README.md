@@ -1,16 +1,17 @@
 # YFinance-Data-Extraction
 Used yfinance library in Python to extract data from Yahoo Finance in real time.
 
-To run the scripts, update the scripts as follows:
-1. In helper_function.py,
-    In #def connect_postgres()
-      dbname=DATABASENAME user=USERNAME password=PASSWORD
+## Run the scripts
+<p>To run the scripts, update the scripts as follows:</p>
+<p>1. In helper_function.py,</p>
+    <p>In **def connect_postgres()**</p>
+      <p>dbname=DATABASENAME user=USERNAME password=PASSWORD</p>
     Replace
     DATABASENAME with your databasename
     USERNAME with the your postgres username 
     PASSWORD with your postgres database password
     
-    In #def connect_sqlalchemy()
+    In**def connect_sqlalchemy()**
       postgresql+psycopg2://USERNAME:PASSWORD@HOST:PORT/DATABASENAME
     Replace
     USERNAME with your postgres username
