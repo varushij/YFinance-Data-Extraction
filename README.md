@@ -2,9 +2,9 @@
 Used yfinance library in Python to extract data from Yahoo Finance in real time.
 
 ## Run the scripts
-<p>To run the scripts, update the scripts as follows:</p>
-<p>1. In helper_function.py,</p>
-    <p>In **def connect_postgres()**</p>
+To run the scripts, update the scripts as follows:<br>
+1. In helper_function.py,
+    In **def connect_postgres()**
       <p>dbname=DATABASENAME user=USERNAME password=PASSWORD</p>
     Replace
     DATABASENAME with your databasename
